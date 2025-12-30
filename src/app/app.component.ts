@@ -39,7 +39,7 @@ export class AppComponent implements OnInit {
   }
 
   day: boolean = true;
-  eventDate: Date = new Date('2026-01-18T13:00:00'); // Aquí pones la fecha del evento
+  eventDate: Date = new Date('2026-01-18T15:30:00'); // Aquí pones la fecha del evento
   days: number = 0;
   hours: number = 0;
   minutes: number = 0;
