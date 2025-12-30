@@ -26,27 +26,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './app.component.css',
 })
 export class AppComponent implements OnInit {
-  title = 'dumbinFest';
-
-  images: string[] = [
-    'imgs/1.jpeg',
-    'imgs/2.jpeg'
-  ];
-
-  images2: string[] = [
-    'imgs/3.jpeg',
-    'imgs/4.jpeg',
-    'imgs/5.jpeg',
-    'imgs/6.jpeg',
-    'imgs/7.jpeg',
-    'imgs/8.jpeg',
-    'imgs/9.jpeg',
-    'imgs/10.jpeg',
-    'imgs/11.jpeg',
-    'imgs/12.jpeg',
-    'imgs/13.jpeg',
-    'imgs/14.jpeg',
-  ];
+  title = 'AngelitaFest';
 
   selectedImage: string = '';
   @ViewChild('dialogContent') dialogContent!: TemplateRef<any>;
@@ -59,7 +39,7 @@ export class AppComponent implements OnInit {
   }
 
   day: boolean = true;
-  eventDate: Date = new Date('2025-04-05T19:00:00'); // Aquí pones la fecha del evento
+  eventDate: Date = new Date('2026-01-18T13:00:00'); // Aquí pones la fecha del evento
   days: number = 0;
   hours: number = 0;
   minutes: number = 0;
@@ -74,7 +54,7 @@ export class AppComponent implements OnInit {
         return;
       }
 
-      this.startCountdown();  
+      this.startCountdown();
       console.log("TRAKAAAAAAAAAAAAA")
     }
   }
